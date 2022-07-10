@@ -16,7 +16,7 @@ const App = () => {
   const [dataUser, setdataUser] = useState([]);
 
   useEffect(() => {
-    getData('http://localhost:3000/data').then((resp) => {
+    getData('https://api-eth-cv-wolfcito.herokuapp.com/data').then((resp) => {
       console.log(resp);
       setdataUser(resp);
     });
