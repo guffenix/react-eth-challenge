@@ -63,5 +63,8 @@
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
     ]
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
