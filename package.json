@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
+    "start": "node server.js",
     "start:dev": "webpack-dev-server --open --mode development",
     "server": "json-server data.json",
-    "start": "node server.js",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
     "test": "jest"
